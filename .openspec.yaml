@@ -1,0 +1,48 @@
+schema: spec-driven
+created: 2026-03-26
+status: completed
+progress:
+  - phase: 1
+    name: 基础架构
+    status: completed
+    tasks:
+      - 初始化 React + Vite 项目
+      - 配置 Tailwind CSS
+      - 安装依赖包（131个）
+  - phase: 2
+    name: 核心功能
+    status: completed
+    tasks:
+      - 创建类型定义
+      - 实现 Zustand 状态管理
+      - 创建侧边栏组件
+      - 创建笔记编辑器（Markdown + 预览）
+      - 创建笔记列表组件
+      - 创建搜索组件
+      - 实现暗黑模式
+      - 实现自动保存
+  - phase: 3
+    name: 增强功能
+    status: completed
+    tasks:
+      - 创建文件夹树组件（层级管理）
+      - 创建回收站弹窗（恢复/永久删除）
+      - 创建数据管理弹窗（导入/导出）
+      - 更新主应用集成所有功能
+      - 添加键盘快捷键（Ctrl+N, Ctrl+F）
+artifacts:
+  - src/types/index.ts
+  - src/stores/noteStore.ts
+  - src/components/Sidebar.tsx
+  - src/components/NoteEditor.tsx
+  - src/components/NoteList.tsx
+  - src/components/SearchBar.tsx
+  - src/components/FolderTree.tsx
+  - src/components/TrashModal.tsx
+  - src/components/DataModal.tsx
+  - src/App.tsx
+  - src/main.tsx
+  - src/App.css
+  - src/index.css
+  - index.html
+  - README.md
